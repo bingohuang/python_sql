@@ -2,7 +2,7 @@ import sqlalchemy
 from sqlalchemy import create_engine
 
 engine = create_engine(
-    'mysql+pymysql://flask:flask-2024@rm-bp1c94s9654848q1mno.mysql.rds.aliyuncs.com/test_db',
+    'mysql+pymysql://flask:flask-2024@8.136.89.212/test_db',
     echo=True)
 
 conn = engine.connect()
